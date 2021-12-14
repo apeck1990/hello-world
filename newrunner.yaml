@@ -1,9 +1,0 @@
-name: Self Hosted
-
-on: [push]
-
-jobs:
-  comment:
-    runs-on: self-hosted
-    steps:
-      - run: uname -a
